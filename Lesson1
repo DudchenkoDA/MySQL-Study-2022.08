@@ -1,1 +1,14 @@
 
+mysql> CREATE DATABASE example;
+Query OK, 1 row affected (0,01 sec)
+
+mysql> USE example;
+Database changed
+mysql> CREATE TABLE users (id INT, name char(20));
+Query OK, 0 rows affected (0,03 sec)
+
+
+mysql> exit
+Bye
+
+dmitrii@PC:/var/lib/mysql$  mysql example.sql > sample.sql;
